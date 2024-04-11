@@ -4,7 +4,7 @@ import search from '../img/search.svg'
 
 const Header = () => {
   return (
-    <main className='header'>
+    <main className='header' id='page'>
       <div className='header_btns'>
         <button>Shop</button>
         <button>About</button>

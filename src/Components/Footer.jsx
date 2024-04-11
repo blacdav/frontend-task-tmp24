@@ -6,24 +6,26 @@ const Footer = () => {
       <div className='footer1'>
         <div className='pgrid'>
             <p className='grid1'>the</p>
-            <p className='grid2'>footer</p>
+            <p className='grid2'>figma</p>
             <p className='grid3'>store</p>
         </div>
-        <div>
-            <h1>Objects that Inspire.</h1>
-            <div>
-                <p>Privacy & Terms</p>
-                <p>Contact Us</p>
-            </div>
-            <ul>
-                <li>Figma</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Youtube</li>
-            </ul>
-            <div>
-                ⬆
-            </div>
+        <div className='footer2'>
+            {/* <div className='footer_flex'> */}
+              <h1>Objects <br /> that Inspire.</h1>
+              <div>
+                  <p>Privacy & Terms</p>
+                  <p>Contact Us</p>
+              </div>
+            {/* </div> */}
+            {/* <div className='footer_flex1'> */}
+              <ul>
+                  <li>Figma</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+              </ul>
+            {/* </div> */}
+            <div className='top'><a href="#page">⬆</a></div>
         </div>
       </div>
       <marquee behavior="scroll" direction="left">figma's marvelously considered collection of objects for our time on </marquee>
